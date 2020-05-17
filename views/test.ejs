@@ -1,0 +1,8 @@
+<%-include("template/header")%>
+<% articles.forEach( (article)=>{%>
+  <ul>
+    <li> <%= article.title %> </li>
+    <li> <%= article.content %> </li>
+  </ul>
+<%})%>
+<%-include("template/footer")%>
