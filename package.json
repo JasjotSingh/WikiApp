@@ -1,0 +1,29 @@
+{
+  "name": "wiki_rest",
+  "version": "1.0.0",
+  "description": "wiki app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasjotSingh/WikiApp.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongoose",
+    "mongodb."
+  ],
+  "author": "Jasjot Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasjotSingh/WikiApp/issues"
+  },
+  "homepage": "https://github.com/JasjotSingh/WikiApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.14"
+  }
+}
